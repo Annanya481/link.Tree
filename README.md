@@ -7,4 +7,4 @@ To know more about linkTree, visit their website https://linktr.ee/.
 
 This is an open project given by the SRM chapter of CodeChef(https://www.codechef.com/).
 
-This project is a model linkTree with links to all my social media handles, created using basic HTML, CSS and Javascript.
+This project is a model linkTree with links to all my social media handles, created using basic HTML, CSS and Javascript. I have deployed this website using GitHub pages. You can find the website at https://annanya481.github.io/link.Tree/. 
