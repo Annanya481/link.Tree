@@ -1,0 +1,47 @@
+body{
+    background-image: url('../bg2.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    min-height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: lightblue;
+    display: inline-block;
+    border: 0.5vw solid black;
+    width: 50vw;
+    height: auto;
+    padding: 1.5vw;
+    margin: 5.5vw;
+}
+
+input {
+    /*border-radius: 1vw;*/
+    padding: 1vw;
+    width: 20vw;
+}
+
+textarea {
+    /*border-radius: 1vw;*/
+    padding: 1vw;
+    width: 20vw;
+}
+
+button {
+    color: white;
+    background-color: teal;
+    /*border-radius: 1vw;*/
+    padding: 1vw;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+h1 {
+    font-size: 3vw;
+}

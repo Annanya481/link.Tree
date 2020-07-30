@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Contact Me!</h1>
+            <form onSubmit="return False">
+                <input type="text" placeholder="Enter your first name" id="firstName" required/>
+                <br />
+                <br />
+                <input type="text" placeholder="Enter your last name" id="lastName" required/>
+                <br />
+                <br />
+                <input type="email" id="email" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <br />
+                <br />
+                <span>What is your question?</span>
+                <br />
+                <textarea id="question" rows="4" required></textarea>
+                <br />
+                <br />
+                <button onclick="sendContact();">Send contact</button>
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

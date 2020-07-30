@@ -1,0 +1,106 @@
+.img {
+    height: 15vw;
+    border-radius: 50%;
+}
+
+.name {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+/*.about {
+    text-align: center;
+    font-size: 1.5vw;
+}*/
+
+html, body{
+    /*min-height: 100%;*/
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    line-height: 30%;
+}
+
+.bg-img {
+    /*background-color: lightblue;
+    background-image: linear-gradient(to right, lightblue , cyan);*/
+    background-image: url('bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+/*li {
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}*/
+
+a:hover {
+    background-color: lightblue;
+    background-image: linear-gradient(to right, teal , cornflowerblue);/* teal -> lightblue*/
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.button {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 0.4vw 0.2vw;
+    cursor: pointer;
+  }
+
+  .linkedin {
+    padding: 1.3vw 35vw;
+  }
+
+  .github {
+      padding: 1.3vw 34.5vw;
+  }
+
+  .resume {
+      padding: 1.3vw 34vw;
+  }
+
+  .goodreads {
+      padding: 1.3vw 25vw;
+  }
+
+  .instagram {
+    padding: 1.3vw 35vw;
+}
+
+.contact {
+    padding: 1.3vw 34.5vw;
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+.cpright {
+    color: white;
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .img, li, .name, .footer {
+      width:100%;
+    }
+  }
