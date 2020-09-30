@@ -9,12 +9,14 @@
     font-weight: bold;
 }
 
+
 /*.about {
     text-align: center;
     font-size: 1.5vw;
 }*/
 
-html, body{
+html,
+body {
     /*min-height: 100%;*/
     color: white;
     text-align: center;
@@ -24,6 +26,7 @@ html, body{
 
 .content {
     line-height: 30%;
+    margin-top: 2rem;
 }
 
 .bg-img {
@@ -38,6 +41,7 @@ ul {
     list-style: none;
 }
 
+
 /*li {
     padding: 10px;
     border: 1px solid white;
@@ -46,7 +50,8 @@ ul {
 
 a:hover {
     background-color: lightblue;
-    background-image: linear-gradient(to right, teal , cornflowerblue);/* teal -> lightblue*/
+    background-image: linear-gradient(to right, teal, cornflowerblue);
+    /* teal -> lightblue*/
 }
 
 a:visited {
@@ -56,32 +61,37 @@ a:visited {
 .button {
     background-color: lightblue;
     border: none;
-    color: white;
+    color: rgb(13, 83, 141);
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.5vw;
+    font-weight: 500;
     margin: 0.4vw 0.2vw;
     cursor: pointer;
-  }
+}
 
-  .linkedin {
+.button:hover {
+    color: blanchedalmond;
+}
+
+.linkedin {
     padding: 1.3vw 35vw;
-  }
+}
 
-  .github {
-      padding: 1.3vw 34.5vw;
-  }
+.github {
+    padding: 1.3vw 34.5vw;
+}
 
-  .resume {
-      padding: 1.3vw 34vw;
-  }
+.resume {
+    padding: 1.3vw 34vw;
+}
 
-  .goodreads {
-      padding: 1.3vw 25vw;
-  }
+.goodreads {
+    padding: 1.3vw 25vw;
+}
 
-  .instagram {
+.instagram {
     padding: 1.3vw 35vw;
 }
 
@@ -92,6 +102,7 @@ a:visited {
 .footer {
     text-align: center;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .cpright {
@@ -100,7 +111,10 @@ a:visited {
 
 @media only screen and (max-width:620px) {
     /* For mobile phones: */
-    .img, li, .name, .footer {
-      width:100%;
+    .img,
+    li,
+    .name,
+    .footer {
+        width: 100%;
     }
-  }
+}
